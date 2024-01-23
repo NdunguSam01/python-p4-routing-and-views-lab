@@ -17,7 +17,9 @@ def print_string(parameter):
 def count(parameter):
 
     result = ''
+
     for i in range(parameter + 1):
+        
         result += str(i) + "<br>"
 
     return result
